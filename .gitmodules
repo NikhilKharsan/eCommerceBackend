@@ -1,5 +1,15 @@
-git submodule add https://github.com/NikhilKharsan/ProductCatalogService.git ProductCatalogService
-git submodule add https://github.com/NikhilKharsan/UserAuthenticationService.git UserAuthenticationService
-git submodule add https://github.com/NikhilKharsan/PaymentService.git PaymentService
-git submodule add https://github.com/NikhilKharsan/EmailService.git EmailService
-git submodule add https://github.com/NikhilKharsan/ServiceDiscovery.git ServiceDiscovery
+[submodule "ProductCatalogService"]
+	path = ProductCatalogService
+	url = https://github.com/NikhilKharsan/ProductCatalogService.git
+[submodule "UserAuthenticationService"]
+	path = UserAuthenticationService
+	url = https://github.com/NikhilKharsan/UserAuthenticationService.git
+[submodule "PaymentService"]
+	path = PaymentService
+	url = https://github.com/NikhilKharsan/PaymentService.git
+[submodule "EmailService"]
+	path = EmailService
+	url = https://github.com/NikhilKharsan/EmailService.git
+[submodule "ServiceDiscovery"]
+	path = ServiceDiscovery
+	url = https://github.com/NikhilKharsan/ServiceDiscovery.git
